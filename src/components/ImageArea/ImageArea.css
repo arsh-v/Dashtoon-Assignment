@@ -1,0 +1,50 @@
+/* Dashboard.css (or your existing CSS file) */
+.image-board {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  gap: 1vmax;
+  margin: 1.5rem;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 20%;
+  height: 20%;
+  border-radius: 5px;
+}
+
+.generated-image {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.3s;
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  scale: 1.5;
+}
+
+.image-container:hover .generated-image {
+  opacity: 0.8;
+}
+
+.image-container:hover .delete-button {
+  opacity: 1;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .image-container {
+    width: 40%;
+    height: 40%;
+  }
+}

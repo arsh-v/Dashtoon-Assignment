@@ -1,0 +1,24 @@
+.add-drawer {
+    padding: 2vmax;
+    animation: pop 0.5s ease-out;
+}
+  
+  /* @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }  */
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

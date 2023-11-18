@@ -1,0 +1,89 @@
+body{
+    background: rgb(59, 195, 190);
+}
+.navbar {
+    background: rgb(6, 98, 151);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1vmax 2vmax;
+}
+.name1{
+    display: flex;
+}
+
+.mainBody{
+    background: rgb(59, 195, 190);
+    /* display: flex; */
+    /* border: solid 2px black; */
+    /* height: 50rem; */
+}
+
+/* .logo {
+    width: 3vmax;
+    height: 3vmax;
+    margin-right: 1.5vmax;
+} */
+
+.name {
+    font-size: 2vmax;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.options {
+    display: grid;
+    justify-content: center;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-right: solid 2px gray;
+    width: 15%;
+    background: rgb(40, 193, 196);
+}
+
+.button{
+    /* width: 100%; */
+    padding: 0.6rem;
+    margin: 0.2rem;
+    border: none;
+    background: none;
+    border: solid 1px rgb(20, 81, 122);
+    /* font-size: medium; */
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgb(20, 244, 20);
+    /* color: white; */
+}
+.button2{
+    background: rgb(245, 134, 134);
+    color: white;
+}
+.button3{
+    background: rgb(11, 11, 246);
+    color: white;
+}
+
+.menuButton{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 1rem;
+}
+
+
+
+.button1:hover{
+    background: rgb(89, 218, 89);
+}
+
+.button2:hover{
+    background: rgb(249, 14, 14);
+    color: white;
+}
+
+.button3:hover{
+    background: blue;
+    color: white;
+}
